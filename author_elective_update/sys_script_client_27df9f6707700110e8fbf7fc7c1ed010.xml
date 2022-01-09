@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>short_description</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Needit Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   alert(g_user.hasRole('client_script_admin'));
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-08 16:02:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27df9f6707700110e8fbf7fc7c1ed010</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Needit Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_27df9f6707700110e8fbf7fc7c1ed010</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-08 18:05:18</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2cce2095db913b04387021c405961999</instance_id>
+        <instance_name>dev85697</instance_name>
+        <name>sys_script_client_27df9f6707700110e8fbf7fc7c1ed010</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Needit Set Requested for&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   alert(g_user.hasRole('client_script_admin'));
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-08 16:02:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;27df9f6707700110e8fbf7fc7c1ed010&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Needit Set Requested for&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_27df9f6707700110e8fbf7fc7c1ed010&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-08 18:05:18&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-57381847</payload_hash>
+        <record_name>Needit Set Requested for</record_name>
+        <reverted_from/>
+        <source>ec8ddbe307700110e8fbf7fc7c1ed0f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-08 18:05:18</sys_created_on>
+        <sys_id>7d8fff2f07b00110e8fbf7fc7c1ed0bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e3addc2b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-08 18:05:18</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>758fff2fc6b0011054a9214860c8e0bc</update_guid>
+        <update_guid_history>758fff2fc6b0011054a9214860c8e0bc:-57381847,e6be77eb4eb00110fc7784324da645e8:-236406826,a73ef7eb8fb00110df088cc00c203478:879829175,7c1e7feb82b00110fbc7857888a366a9:-877384851,2d8db7ebf6b00110114044f76cce61aa:879829175,e7a5e3ab9a70011086fddeeb12ed9bae:1684662631,b263af679c7001100cddfdb48b9cab5e:320224090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-09 11:16:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0f30311259f84f0084cda3d1ede9e190</sys_id>
+        <sys_metadata>27df9f6707700110e8fbf7fc7c1ed010</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Set Requested for</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">a3fd532707700110e8fbf7fc7c1ed0e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_27df9f6707700110e8fbf7fc7c1ed010</sys_update_name>
+        <sys_update_version display_value="sys_script_client_27df9f6707700110e8fbf7fc7c1ed010">7d8fff2f07b00110e8fbf7fc7c1ed0bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-09 11:16:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
